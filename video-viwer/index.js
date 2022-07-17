@@ -1,5 +1,5 @@
 const Videoviwer = {
-    createViwer: function(parent_element, videoURL, imgURL, options) {
+    createViwer: function(parent_element, videoURL, imgURL) {
         var element = parent_element.insertBefore("img", parent_element.firstChild);
         element.src = imgURL;
         var video = document.body.insertBefore("video", document.body.firstChild);
@@ -8,6 +8,7 @@ const Videoviwer = {
         video.id = "vv" + videoId;
         video.onclick = "this.play();";
         video.controls = true;
+        vide.src = videoURL;
         element.onclick = "Videoviwer.start(this)";
         video.class = "videodialog";
         videoId++;
