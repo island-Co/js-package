@@ -10,4 +10,4 @@ To use this, add the following code inside the <head> tag.
 ## Package List
 | package name | JavaScript URL to embed | CSS URL to embed | Status |
 | ---- | ---- | ---- | ---- |
-|  Video viewer | [https://island-co.github.io/js-package/video-viwer/index.js](https://island-co.github.io/js-package/video-viwer/index.js) | https://island-co.github.io/js-package/video-viwer/index.css <td style="background:yellow;"> In development |
+|  Video viewer | https://island-co.github.io/js-package/video-viwer/index.js | https://island-co.github.io/js-package/video-viwer/index.css | <span style="background-color:yellow">In development </span>|
